@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Address Book</title>
+  </head>
+  <body>
+  <div class="container">
+    <h1>Address Book</h1>
+    <h2>Add a contact:</h2>
+      <form id="addressBook">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type="text">
+          </div>
+          <div class="form-group">
+            <label for="street">Street</label>
+            <input id="street" type="text">
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input id="city" type="text">
+          </div>
+          <div class="form-group">
+            <label for="state">State</label>
+            <input id="state" type="text">
+          </div>
+          <button type="submit" class="btn">Ping Pong!</button>
+        </form>
+
+        <div class="result">
+        <br>
+        <hr>
+        <br>
+          <ul class="numberList"></ul>
+        </div>
+      </div>
+    </body>
+  </html>
